@@ -13,7 +13,7 @@ To get started developing right away:
 * cd into my-reads folder: `cd my-books-app`
 * install all project dependencies with `npm install`
 * start the development server with `npm start`
-* Open In Browser - Your app should now be running on port 3000. One your browser to: http://localhost:3000
+* Open In Browser - Your app should now be running on port 3000. Open your browser to: http://localhost:3000
 
 ## Requirements
 * React V16.6.3
