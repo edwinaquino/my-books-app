@@ -6,8 +6,8 @@ This is a fund and challenging project is a bookshelf app that allows you to sel
 
 To get started developing right away:
 
-* Clone this project using Git: `git clone https://github.com/edwinaquino/my-reads.git`
-* cd into my-reads folder: `cd my-reads`
+* Clone this project using Git: `git clone https://github.com/edwinaquino/my-books-app.git`
+* cd into my-reads folder: `cd my-books-app`
 * install all project dependencies with `npm install`
 * start the development server with `npm start`
 * Open In Browser - Your app should now be running on port 3000. One your browser to: http://localhost:3000
