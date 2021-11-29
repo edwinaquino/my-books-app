@@ -25,7 +25,7 @@ class BooksApp extends React.Component {
         myCurrentBooks: books
       })
       // DEBUGGING: CONFIRM API ARRAY IN CONSOLE
-      console.log('LINE 47', books)
+      //console.log('LINE 47', books)
     })
   }
   updateBookShelf = (toShelf, book) => {
@@ -68,8 +68,8 @@ class BooksApp extends React.Component {
                 unCamelCase={this.unCamelCase}
                 {...props} />
             )} />
-            {bookCategories.map((bookCategory) => (
-              <Route exact path={`/libro/:${bookCategory}`} render={props => (
+            {bookCategories.map((bookCategory, key) => (
+              <Route key={key} exact path={`/libro/:${bookCategory}`} render={props => (
                 <BookShelf
                   books={this.state.currentlyReading}
                   shelfDetail={bookCategory}

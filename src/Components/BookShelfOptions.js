@@ -15,7 +15,7 @@ class BookShelfOptions extends Component {
                     this.props.updateBookShelf(event.target.value, book);
                 }
                 } >
-                    <option value="none" disabled>Move to...</option>
+                    <option disabled>Move to...</option>
                     {/* https://stackoverflow.com/questions/39965579/how-to-loop-an-object-in-react */}
                     { Object.entries(options).map((t,k) => <option key={k} value={t[0]}>{t[1]}</option>) }  
                 </select>

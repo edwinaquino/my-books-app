@@ -23,7 +23,7 @@ class SearchBook extends Component {
             // RESULTS FOUND
             else if (typeof books !== "undefined" && typeof books.map === "function") {
                 // FOR DEBUGGING
-                console.log('BookSearc LIne26 Results:', books);
+                //console.log('BookSearc LIne26 Results:', books);
                 //compare with my books in shelves and update the shelf property
                 books.forEach(function (book) {
                     var myCurrentBook = myCurrentBooks.filter(x => x.id === book.id);

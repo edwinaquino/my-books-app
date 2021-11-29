@@ -5,7 +5,7 @@ class BookDetails extends Component {
         const book = this.props.location.state.book;
         // For Debugging
         console.clear();
-        console.log("BookDetails.js LINE 6: ", book)
+        //console.log("BookDetails.js LINE 6: ", book)
         return (
             <div >
                 <div style={{ marginBottom: "20px", paddingRight: "20px" }}>
